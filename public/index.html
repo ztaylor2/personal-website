@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zachary M. Taylor</title>
+    <link rel="stylesheet" href="vendor/style/reset.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/modules.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="/">Zachary M. Taylor</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="/">Home</a>
+          </li>
+
+          <li>
+            <a href="/#!">Projects</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="/algorithm">Algorithm Walkthroughs</a>
+              </li>
+              <li>
+                <a href="/permits">Building Permits</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+    <main>
+      <section id="home">
+      </section>
+
+      <section id="projects"> Projects </section>
+
+      <section id="algorithm"> Algorithm Walkthroughs </section>
+      <section id="permits"> Building Permits </section>
+
+      <section id="about">
+      </section>
+
+      <section id="contact">
+        <ul>
+          <li>Email: ZacharyMTaylor3@gmail.com</li>
+          <li>Phone: 206-450-6307</li>
+          <li>GitHub: ZTaylor2</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="scripts/views/navView.js"></script>
+    <script type="text/javascript" src="scripts/views/homeView.js"></script>
+
+    <script type="text/javascript" src="scripts/controllers/aboutController.js"></script>
+    <script type="text/javascript" src="scripts/controllers/contactController.js"></script>
+    <script type="text/javascript" src="scripts/controllers/homeController.js"></script>
+    <script type="text/javascript" src="scripts/controllers/algorithmController.js"></script>
+    <script type="text/javascript" src="scripts/controllers/permitsController.js"></script>
+    <script type="text/javascript" src="scripts/controllers/projectsController.js"></script>
+
+    <script type="text/javascript" src="scripts/controllers/routes.js"></script>
+  </body>
+</html>
