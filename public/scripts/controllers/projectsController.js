@@ -1,12 +1,12 @@
-'use strict';
-var app = app || {};
+// 'use strict';
+// var app = app || {};
 
-(function(module) {
-  const projectsController = {};
+// (function(module) {
+//   const projectsController = {};
 
-  projectsController.init = () => {
-    $('#projects').show().siblings().hide();
-  };
+//   projectsController.init = () => {
+//     $('#projects').show().siblings().hide();
+//   };
 
-  module.projectsController = projectsController;
-})(app);
+//   module.projectsController = projectsController;
+// })(app);

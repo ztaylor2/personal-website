@@ -6,7 +6,6 @@ var app = app || {};
 
   homeController.init = () => {
     $('#home').show().siblings().hide();
-    app.homeView.carousel();
   };
 
   module.homeController = homeController;
