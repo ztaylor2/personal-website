@@ -1,5 +1,10 @@
 /*TAB STYLING*/
 
+/*home page styling*/
+#home {
+  text-indent: 3em;
+}
+
 /*contact page styling*/
 #contact ul li {
   text-align: center;
