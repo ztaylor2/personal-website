@@ -5,6 +5,7 @@
 }
 
 .name {
+  font-family: 'Nova Flat', cursive;
   position: absolute;
   padding-left: 20px;
   float: left;
@@ -37,7 +38,7 @@ nav ul li {
 }
 nav ul li a,
 nav ul li a:visited {
-  font-family: sans-serif;
+  font-family: 'Nova Flat', cursive;
   font-weight: lighter;
   display: block;
   padding: 0 20px;
