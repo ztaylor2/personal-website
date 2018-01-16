@@ -1,8 +1,17 @@
 {
   "title": "Zachary M. Taylor's Resume",
   "name": "personal-website",
-  "version": "0",
+  "version": "1.0.0",
   "description": "Zachary M. Taylor's Personal Website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztaylor2/personal-website.git"
+  },
   "keywords": [
     "css",
     "sass",
@@ -13,7 +22,7 @@
   ],
   "homepage": "https://github.com/ztaylor2/personal-website#readme",
   "bugs": {
-    "url": "https://github.com/ztaylor2/personal-website/issues",
+    "url": "https://github.com/ztaylor2/personal-website/issues"
   },
   "license": "MIT",
   "author": "Zach Taylor",
@@ -28,7 +37,7 @@
     "devicons": "^1.8.0",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.6",
-    "simple-line-icons": "^2.4.1",
+    "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
     "browser-sync": "2.18.13",
