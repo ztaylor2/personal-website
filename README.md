@@ -1,3 +1,3 @@
 # Zachary M. Taylor's Personal Website
 
-Built with HTML, CSS, and Bootstrap
+Built with JavaScript, HTML, CSS, and Bootstrap
