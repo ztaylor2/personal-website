@@ -1,2 +1,3 @@
-# personal-website
-My personal website
+# Zachary M. Taylor's Personal Website
+
+Built with HTML, CSS, and Bootstrap
