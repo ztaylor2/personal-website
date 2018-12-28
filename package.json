@@ -26,10 +26,6 @@
   },
   "license": "MIT",
   "author": "Zach Taylor",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ztaylor2/personal-website.git"
-  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.1",
